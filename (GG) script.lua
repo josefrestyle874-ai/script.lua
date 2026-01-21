@@ -30,7 +30,7 @@ local NothingLibrary = loadstring(game:HttpGetAsync('https://raw.githubuserconte
 local Notification = NothingLibrary.Notification();
 
 Notification.new({
-    Title = "-JS7 ðŸ‘‘ HUB --",
+    Title = "JS7 HUB",
     Description = "Loaded successfully!",
     Duration = 5,
     Icon = "rbxassetid://8997385628"
@@ -38,7 +38,7 @@ Notification.new({
 
 -- Criar janela principal COM TEMA VERMELHO
 local Windows = NothingLibrary.new({
-    Title = "-JS7 ðŸ‘‘ HUB --",
+    Title = "-JS7 HUB --",
     Description = "Premium Script Hub",
     Keybind = Enum.KeyCode.RightControl,
     Logo = 'http://www.roblox.com/asset/?id=18898582662',
@@ -1593,8 +1593,8 @@ ServerSection:NewButton({
 })
 
 -- CREDITS TAB
-CreditsSection:NewTitle("Made By JS7 ðŸ‘‘")
-CreditsSection:NewTitle("Big thanks to: Sr Perfect")
+CreditsSection:NewTitle("Made By JS7 ‘‘")
+CreditsSection:NewTitle("Big thanks to: Js7")
 CreditsSection:NewTitle("Version: 1.0")
 CreditsSection:NewTitle("Join our Discord for updates!")
 
@@ -1612,13 +1612,13 @@ CreditsSection:NewButton({
     end,
 })
 
-InfoSection:NewTitle("UI by 4lpaca")
-InfoSection:NewTitle("Credits Feito Por JS7 ðŸ‘‘")
-InfoSection:NewTitle("Com ajuda de Sr Perfect")
-InfoSection:NewTitle("Server nenhum")
+InfoSection:NewTitle("TTK JS7.HUB")
+InfoSection:NewTitle("Credits Feito Por JS7 HUB‘‘")
+InfoSection:NewTitle("script grátis")
+InfoSection:NewTitle("Server DISCORD")
 
 Notification.new({
-    Title = "-JS7 ðŸ‘‘ HUB --",
+    Title = "JS7 HUB ",
     Description = "All features loaded successfully!",
     Duration = 5,
     Icon = "rbxassetid://8997385628"
